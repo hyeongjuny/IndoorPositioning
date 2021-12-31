@@ -1,6 +1,7 @@
 # IndoorPositioning
-## 이론
+## 사용 이론
 ### 1. 아폴로니우스의 원(Apollonius Circle)
+  이웃한 두 개의 RSSI 신호를 이용하여 두 신호의 거리의 비가 일정한 점들의 자취 중 절편(Intercept)을 이용.
 ```
   def apollo(r, a, b):
     if r == 1 and a == 0:
@@ -21,6 +22,9 @@
         y2 = b * l - (b ** 2 * l ** 2 - a ** 2 * l - b ** 2 * l - 9) ** (1/2)
         return [x1, x2, y1, y2]
 ```
-ㅁㄴㄹ
+가로, 세로 또는 대각선의 신호를 이용할 때를 각각 조건문으로 구분
+
 ### 2. 베이지안 추정(Bayesian Estimation)
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/96864406/147824624-0ed60a14-80d8-4d80-88f1-c9f8aad7bbe4.png">
+
 
