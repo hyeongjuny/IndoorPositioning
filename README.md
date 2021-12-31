@@ -60,7 +60,21 @@
             Y_Hypersigma20 = ysigma20[-1]
 ``` 
 
-> 동작 예시
-> <img width="596" alt="image" src="https://user-images.githubusercontent.com/96864406/147825270-ef727d92-024d-4654-95e5-7479ad47e8a9.png">
-   
+
+## 동작 예시
+
+# Input Data
+
+> <img width="363" alt="image" src="https://user-images.githubusercontent.com/96864406/147825364-f1ea2486-2316-425c-8590-597d75b285ce.png">
+
+# Output Data
+
+> <img width="744" alt="image" src="https://user-images.githubusercontent.com/96864406/147825393-1b0f9885-6209-44ff-8c07-ba9df2112ba9.png">
+
+
+
+
+
+
+
 
