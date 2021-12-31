@@ -4,6 +4,8 @@
 > 이웃한 두 개의 RSSI 신호를 이용하여 두 신호의 거리의 비가 일정한 점들의 자취 중 절편(Intercept)을 이용.
 > <img width="346" alt="image" src="https://user-images.githubusercontent.com/96864406/147824648-29566a2b-3974-4185-ae0d-93834d9306ba.png">
 
+
+
 > 가로, 세로 또는 대각선의 신호를 이용할 때를 각각 조건문으로 구분
     
 ```
@@ -33,11 +35,11 @@
 
 
 ### 2. 베이지안 추정(Bayesian Estimation)
-<img width="525" alt="image" src="https://user-images.githubusercontent.com/96864406/147824624-0ed60a14-80d8-4d80-88f1-c9f8aad7bbe4.png">
+> 데이터의 분포가 정규분포일 때 베이즈룰(bayes rule)에 따라 사후확률을 베이지안 방법으로 추정.
+> <img width="525" alt="image" src="https://user-images.githubusercontent.com/96864406/147824624-0ed60a14-80d8-4d80-88f1-c9f8aad7bbe4.png">
 
-  데이터의 분포가 정규분포일 때 베이즈룰(bayes rule)에 따라 사후확률을 베이지안 방법으로 추정.
-
-
+> Bayesian 계산을 하는 코드
+  
 ``` 
     for j in range(4):  # 3차 추정.
         # 데이터를 정규 분포로.
@@ -58,5 +60,7 @@
             Y_Hypersigma20 = ysigma20[-1]
 ``` 
 
-   Bayesian 계산을 하는 코드
+> 동작 예시
+> <img width="596" alt="image" src="https://user-images.githubusercontent.com/96864406/147825270-ef727d92-024d-4654-95e5-7479ad47e8a9.png">
+   
 
