@@ -1,9 +1,10 @@
 # IndoorPositioning
 ## 사용 이론
 ### 1. 아폴로니우스의 원(Apollonius Circle)
-<img width="346" alt="image" src="https://user-images.githubusercontent.com/96864406/147824648-29566a2b-3974-4185-ae0d-93834d9306ba.png">
- 
 > 이웃한 두 개의 RSSI 신호를 이용하여 두 신호의 거리의 비가 일정한 점들의 자취 중 절편(Intercept)을 이용.
+> <img width="346" alt="image" src="https://user-images.githubusercontent.com/96864406/147824648-29566a2b-3974-4185-ae0d-93834d9306ba.png">
+ 
+
   
   
 ```
