@@ -3,7 +3,7 @@
 ### 1. 아폴로니우스의 원(Apollonius Circle)
 <img width="346" alt="image" src="https://user-images.githubusercontent.com/96864406/147824648-29566a2b-3974-4185-ae0d-93834d9306ba.png">
  
- #### 이웃한 두 개의 RSSI 신호를 이용하여 두 신호의 거리의 비가 일정한 점들의 자취 중 절편(Intercept)을 이용.
+   이웃한 두 개의 RSSI 신호를 이용하여 두 신호의 거리의 비가 일정한 점들의 자취 중 절편(Intercept)을 이용.
   
   
 ```
@@ -28,9 +28,9 @@
 ```
 
 
-#### <img width="355" alt="image" src="https://user-images.githubusercontent.com/96864406/147824705-c16dd44d-fb4a-44d1-a074-fbfcffb387b0.png">
+ <img width="355" alt="image" src="https://user-images.githubusercontent.com/96864406/147824705-c16dd44d-fb4a-44d1-a074-fbfcffb387b0.png">
 
-#### 가로, 세로 또는 대각선의 신호를 이용할 때를 각각 조건문으로 구분
+   가로, 세로 또는 대각선의 신호를 이용할 때를 각각 조건문으로 구분
 
 ### 2. 베이지안 추정(Bayesian Estimation)
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/96864406/147824624-0ed60a14-80d8-4d80-88f1-c9f8aad7bbe4.png">
@@ -58,5 +58,5 @@
             Y_Hypersigma20 = ysigma20[-1]
 ``` 
 
-Bayesian 계산을 하는 코드
+   Bayesian 계산을 하는 코드
 
